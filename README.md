@@ -5,7 +5,7 @@ This Android app tracks the user's location using the LocationServices API and s
 The main features are:
 
 Get the user's current location
-Start a location tracking by foreground service for to get location updates every 5 seconds and store them in a database.
+Start a location tracking by foreground service to get location updates every 5 seconds and store them in a database.
 Stop the location tracking.
 Show the stored location points on a map using a polyline.
 Get driving directions between two points using the Directions API.
@@ -26,7 +26,7 @@ The app follows the MVVM Architecture Pattern.
 - LocationServices API
 - Dependency Injection (Hilt)
 
-#### API KEY
-To get an API Key from NASA to perform network requests to Nasa servers. You need to generate an api key by going to https://api.nasa.gov/
+### API KEY
+You need to generate an API key from Google Cloud Consol by going to https://play.google.com/console
 
-Then go to replace myApiNasa in build.gradle(:app) file with your API key.
+Then go to put MAPS_API_KEY="YOUR_API_KEY" in local.properties.
