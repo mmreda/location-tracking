@@ -13,18 +13,20 @@ Handle user permissions for location access.
 The app has a fragment with a Google Map view. It checks for location permissions and enables the map's location functionality. It allows the user to start location tracking which starts a foreground service to get location updates. It stores the locations in a Room database and shows the path on the map. The user can also get directions between points and stop location tracking.
 
 ## Some of the Technologies and Techniques Used
-The app follows the MVVM Architecture Pattern.
 
+- MVVM
+- Clean Architecture
 - Room
 - Retrofit
 - Data Binding
 - Foreground Service
 - Kotlin Coroutines
+- Flow
+- Dagger Hilt
 - Permissions
 - Google Maps API
 - Directions API
 - Google Location Services API
-- Dependency Injection (Hilt)
 
 ### API KEY
 You need to generate an API key from Google Cloud Consol by going to https://play.google.com/console
