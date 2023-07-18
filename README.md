@@ -1,6 +1,6 @@
 # Location Tracking
 
-This Android app tracks the user's location using the LocationServices API and stores the location points in a Room database every 5 seconds. It shows the location points on a Google Map using a Polyline. It also uses the Directions API to get driving directions between two points selected by the user.
+This Android app tracks the user's location using the Google Location Services API and stores the location points in a Room database every 5 seconds. It shows the location points on a Google Map using a Polyline. It also uses the Directions API to get driving directions between two points selected by the user.
 
 The main features are:
 
@@ -21,9 +21,9 @@ The app follows the MVVM Architecture Pattern.
 - Foreground Service
 - Kotlin Coroutines
 - Permissions
-- Google Maps
+- Google Maps API
 - Directions API
-- LocationServices API
+- Google Location Services API
 - Dependency Injection (Hilt)
 
 ### API KEY
