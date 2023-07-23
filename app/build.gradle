@@ -35,6 +35,7 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
 
+            resValue("string", "maps_api_key", localProperties['MAPS_API_KEY'])
         }
     }
     compileOptions {
